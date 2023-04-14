@@ -1,0 +1,43 @@
+{
+  "name": "blue-dog-app",
+  "version": "1.0.0",
+  "description": "Dog app for my daughter to play with to experiment to GSAP",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\", && exit 1",
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/404pandas/BlueDogApp.git"
+  },
+  "keywords": [
+    "express",
+    "javascript",
+    "html",
+    "materialize",
+    "gsap",
+    "express",
+    "express",
+    "express",
+    "express"
+  ],
+  "author": "Mary Elenius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/404pandas/BlueDogApp/issues"
+  },
+  "homepage": "https://github.com/404pandas/BlueDogApp#readme",
+  "dependencies": {
+    "@shopify/draggable": "^1.0.0-beta.8",
+    "express": "^4.18.2",
+    "gsap": "^3.11.5",
+    "keyboardjs": "^2.7.0",
+    "materialize-css": "^1.0.0",
+    "timezz": "^7.0.0"
+  }
+}
